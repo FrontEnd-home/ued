@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- <html manifest="/manifest.appcache" prefix="og: http://ogp.me/ns#"> -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+  <meta name="description" content="DevDocs combines 56 reference documentations in a fast, organized, and searchable interface: HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, etc.">
+  <meta property="og:title" content="DevDocs">
+  <meta property="og:description" content="DevDocs combines 56 reference documentations in a fast, organized, and searchable interface: HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, etc.">
+  <!-- <meta property="og:type" content="website"> -->
+  <!-- <meta property="og:url" content="http://devdocs.io"> -->
+  <!-- <meta property="og:image" content="/images/icon-128.png"> -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="robots" content="noodp">
+  <title>DevDocs: Open-source / Offline API Documentation Browser</title>
+  <!-- <link rel="canonical" href="http://devdocs.io"> -->
+  <!-- <base url="http://maxcdn.devdocs.io"> -->
+  <!-- <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="DevDocs Search"> -->
+  <!-- <link rel="alternate" href="http://devdocs.io/feed" title="DevDocs" type="application/atom+xml"> -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!-- <link rel="fluid-icon" href="/images/fluid-icon.png" title="DevDocs">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152.png">
+  <link rel="apple-touch-icon" sizes="160x160" href="/images/apple-icon-160.png"> -->
+  <link rel="stylesheet" href="assets/application.css">
+  <!-- <script src="assets/application.js"></script> -->
+  <!-- <script src="assets/docs.js"></script> -->
+</head>
+<body class="_booting _noscript">
+<noscript class="_fail">DevDocs requires JavaScript to run.</noscript>
+<div class="_app">
+  <header class="_header">
+    <a class="_home-link"></a>
+    <a class="_menu-link"></a>
+    <form class="_search">
+      <input type="search" class="_search-input" placeholder="Search&hellip;" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" maxlength="20">
+      <a class="_search-clear"></a>
+      <div class="_search-tag"></div>
+    </form>
+    <h1 class="_logo">
+      <a href="/" class="_nav-link">DevDocs</a>
+    </h1>
+    <nav class="_nav">
+      <a href="/about" class="_nav-link">About</a>
+      <a href="/news" class="_nav-link">News</a>
+      <a href="/help" class="_nav-link">Tips</a>
+    </nav>
+  </header>
+  <section class="_sidebar">
+    <div class="_list">
+      <a href="/angular/" class="_list-item _icon-angular _list-dir"><span class="_list-arrow"></span>Angular.js</a>
+      <a href="/backbone/" class="_list-item _icon-backbone _list-dir"><span class="_list-arrow"></span>Backbone.js</a>
+      <a href="/bower/" class="_list-item _icon-bower _list-dir"><span class="_list-arrow"></span>Bower</a>
+      <a href="/c/" class="_list-item _icon-c _list-dir"><span class="_list-arrow"></span>C</a>
+      <a href="/chai/" class="_list-item _icon-chai _list-dir"><span class="_list-arrow"></span>Chai</a>
+      <a href="/coffeescript/" class="_list-item _icon-coffeescript _list-dir"><span class="_list-arrow"></span>CoffeeScript</a>
+      <a href="/cordova/" class="_list-item _icon-cordova _list-dir"><span class="_list-arrow"></span>Cordova</a>
+      <a href="/cpp/" class="_list-item _icon-cpp _list-dir"><span class="_list-arrow"></span>C++</a>
+      <a href="/css/" class="_list-item _icon-css _list-dir"><span class="_list-arrow"></span>CSS</a>
+      <a href="/d3/" class="_list-item _icon-d3 _list-dir"><span class="_list-arrow"></span>D3.js</a>
+      <a href="/django/" class="_list-item _icon-django _list-dir"><span class="_list-arrow"></span>Django</a>
+      <a href="/dom/" class="_list-item _icon-dom _list-dir"><span class="_list-arrow"></span>DOM</a>
+      <a href="/dom_events/" class="_list-item _icon-dom_events _list-dir"><span class="_list-arrow"></span>DOM Events</a>
+      <a href="/ember/" class="_list-item _icon-ember _list-dir"><span class="_list-arrow"></span>Ember.js</a>
+      <a href="/express/" class="_list-item _icon-express _list-dir"><span class="_list-arrow"></span>Express</a>
+      <a href="/git/" class="_list-item _icon-git _list-dir"><span class="_list-arrow"></span>Git</a>
+      <a href="/go/" class="_list-item _icon-go _list-dir"><span class="_list-arrow"></span>Go</a>
+      <a href="/grunt/" class="_list-item _icon-grunt _list-dir"><span class="_list-arrow"></span>Grunt</a>
+      <a href="/haskell/" class="_list-item _icon-haskell _list-dir"><span class="_list-arrow"></span>Haskell</a>
+      <a href="/html/" class="_list-item _icon-html _list-dir"><span class="_list-arrow"></span>HTML</a>
+      <a href="/http/" class="_list-item _icon-http _list-dir"><span class="_list-arrow"></span>HTTP</a>
+      <a href="/javascript/" class="_list-item _icon-javascript _list-dir"><span class="_list-arrow"></span>JavaScript</a>
+      <a href="/jquery/" class="_list-item _icon-jquery _list-dir"><span class="_list-arrow"></span>jQuery</a>
+      <a href="/jquerymobile/" class="_list-item _icon-jquerymobile _list-dir"><span class="_list-arrow"></span>jQuery Mobile</a>
+      <a href="/jqueryui/" class="_list-item _icon-jqueryui _list-dir"><span class="_list-arrow"></span>jQuery UI</a>
+      <a href="/knockout/" class="_list-item _icon-knockout _list-dir"><span class="_list-arrow"></span>Knockout.js</a>
+      <a href="/laravel/" class="_list-item _icon-laravel _list-dir"><span class="_list-arrow"></span>Laravel</a>
+      <a href="/less/" class="_list-item _icon-less _list-dir"><span class="_list-arrow"></span>Less</a>
+      <a href="/lodash/" class="_list-item _icon-lodash _list-dir"><span class="_list-arrow"></span>Lo-Dash</a>
+      <a href="/marionette/" class="_list-item _icon-marionette _list-dir"><span class="_list-arrow"></span>Marionette.js</a>
+      <a href="/markdown/" class="_list-item _icon-markdown _list-dir"><span class="_list-arrow"></span>Markdown</a>
+      <a href="/maxcdn/" class="_list-item _icon-maxcdn _list-dir"><span class="_list-arrow"></span>MaxCDN</a>
+      <a href="/modernizr/" class="_list-item _icon-modernizr _list-dir"><span class="_list-arrow"></span>Modernizr</a>
+      <a href="/moment/" class="_list-item _icon-moment _list-dir"><span class="_list-arrow"></span>Moment.js</a>
+      <a href="/mongoose/" class="_list-item _icon-mongoose _list-dir"><span class="_list-arrow"></span>Mongoose</a>
+      <a href="/nginx/" class="_list-item _icon-nginx _list-dir"><span class="_list-arrow"></span>nginx</a>
+      <a href="/node/" class="_list-item _icon-node _list-dir"><span class="_list-arrow"></span>Node.js</a>
+      <a href="/nokogiri/" class="_list-item _icon-nokogiri _list-dir"><span class="_list-arrow"></span>Nokogiri</a>
+      <a href="/php/" class="_list-item _icon-php _list-dir"><span class="_list-arrow"></span>PHP</a>
+      <a href="/phpunit/" class="_list-item _icon-phpunit _list-dir"><span class="_list-arrow"></span>PHPUnit</a>
+      <a href="/postgresql/" class="_list-item _icon-postgresql _list-dir"><span class="_list-arrow"></span>PostgreSQL</a>
+      <a href="/python/" class="_list-item _icon-python _list-dir"><span class="_list-arrow"></span>Python</a>
+      <a href="/python2/" class="_list-item _icon-python2 _list-dir"><span class="_list-arrow"></span>Python 2</a>
+      <a href="/rails/" class="_list-item _icon-rails _list-dir"><span class="_list-arrow"></span>Ruby on Rails</a>
+      <a href="/react/" class="_list-item _icon-react _list-dir"><span class="_list-arrow"></span>React</a>
+      <a href="/redis/" class="_list-item _icon-redis _list-dir"><span class="_list-arrow"></span>Redis</a>
+      <a href="/requirejs/" class="_list-item _icon-requirejs _list-dir"><span class="_list-arrow"></span>RequireJS</a>
+      <a href="/rethinkdb/" class="_list-item _icon-rethinkdb _list-dir"><span class="_list-arrow"></span>RethinkDB</a>
+      <a href="/ruby/" class="_list-item _icon-ruby _list-dir"><span class="_list-arrow"></span>Ruby</a>
+      <a href="/sass/" class="_list-item _icon-sass _list-dir"><span class="_list-arrow"></span>Sass</a>
+      <a href="/sinon/" class="_list-item _icon-sinon _list-dir"><span class="_list-arrow"></span>Sinon</a>
+      <a href="/socketio/" class="_list-item _icon-socketio _list-dir"><span class="_list-arrow"></span>Socket.IO</a>
+      <a href="/svg/" class="_list-item _icon-svg _list-dir"><span class="_list-arrow"></span>SVG</a>
+      <a href="/underscore/" class="_list-item _icon-underscore _list-dir"><span class="_list-arrow"></span>Underscore.js</a>
+      <a href="/xpath/" class="_list-item _icon-xpath _list-dir"><span class="_list-arrow"></span>XPath</a>
+      <a href="/yii/" class="_list-item _icon-yii _list-dir"><span class="_list-arrow"></span>Yii</a>
+    </div>
+  </section>
+  <section class="_container">
+    <div class="_content _content-loading"></div>
+  </section>
+</div>
+<script>
+(function(){
+  window.onload = function(){
+    var body = document.getElementsByTagName('body')[0];
+    body.className = '';
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "name": "node-sass",
+  "version": "1.0.0",
+  "description": "编译sass",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-if": "^1.2.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2",
+    "node-sass": "~1.0"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.4.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-css-base64": "^1.3.1",
+    "gulp-footer": "^1.0.5",
+    "gulp-header": "^1.2.2",
+    "gulp-iconfont": "^1.0.0",
+    "gulp-iconfont-css": "0.0.9",
+    "gulp-jshint": "^1.9.0",
+    "gulp-livereload": "^3.0.2",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-open": "^0.3.1",
+    "gulp-sass": "^1.1.0",
+    "gulp-watch": "^2.0.0"
+  },
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrontEnd-home/ued.git"
+  },
+  "keywords": [
+    "[\"node\"",
+    "\"node-sass\"]"
+  ],
+  "author": "FrontEnd-Ctrip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrontEnd-home/ued/issues"
+  },
+  "homepage": "https://github.com/FrontEnd-home/ued"
+}

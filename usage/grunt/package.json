@@ -1,0 +1,27 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "使用gulp",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^1.4.28"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrontEnd-home/ued.git"
+  },
+  "keywords": [
+    "[\"node\"",
+    "\"gulp\"]"
+  ],
+  "author": "FrontEnd-Ctrip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrontEnd-home/ued/issues"
+  },
+  "homepage": "https://github.com/FrontEnd-home/ued"
+}

@@ -8,7 +8,7 @@
       <div class="_search-tag"></div>
     </form>
     <h1 class="_logo">
-      <a href="/" class="_nav-link">DevDocs</a>
+      <a href="/" class="_nav-link">Developer's Guide</a>
     </h1>
     <nav class="_nav">
       <a href="/about" class="_nav-link">About</a>
@@ -18,8 +18,8 @@
   </header>
   <section class="_sidebar">
     <div class="_list">
-      <%list.each(function(v,i){%>
-        <a href="/<%= v.slug %>/" class="_list-item _icon-<%= v.slug %> _list-dir"><span class="_list-arrow"></span><%= v.name %></a>
+      <%list.forEach(function(v,i){%>
+        <a href="/<%= v.enname %>/" class="_list-item _icon-<%= v.enname %> _list-dir"><span class="_list-arrow"></span><%= v.name %></a>
       <%})%>
     </div>
   </section>

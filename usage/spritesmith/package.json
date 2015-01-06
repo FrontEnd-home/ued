@@ -10,7 +10,9 @@
     "gulp.spritesmith": "^2.4.0",
     "spritesheet-templates": "^8.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gm": "^1.17.0"
+  },
   "scripts": {
     "test": "node app.js"
   },

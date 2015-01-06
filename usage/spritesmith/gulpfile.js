@@ -32,6 +32,22 @@ gulp.task('sprite', function () {
         //'cssstamp': true,
         //engine: phantomjssmith
         //cssSelector: function (item) { return 'selector'; },
+        //cssTemplate: function (list) {
+          
+          // Convert items from an array into an object
+          //var itemObj = {};
+          //list.items.forEach(function (item) {
+            // Grab the name and store the item under it
+            //var name = item.name;
+            //itemObj[name] = item;
+
+            // Delete the name from the item
+            //delete item.name;
+          //});
+
+          // Return stringified itemObj
+          //return itemObj;
+        //},
         cssTemplate: 'icon.scss.template.mustache',
         cssVarMap: function (item) {
           item.name = '' + item.name;

@@ -17,7 +17,10 @@
 %icon-clear                 { background-position: -3rem 0; }
 %icon-close-white           { background-position: -4rem 0; }
 %icon-settings              { background-position: 0 -1rem; }
+%icon-menu                  { background-position: -2rem -4rem; }
+%icon-home                  { background-position: -3rem -4rem; }
 %icon-check                 { background-position: -1rem -1rem; }
+%icon-path                  { background-position: -3rem -7rem; }
 ._icon-http:before          { background-position: -2rem -1rem; }
 ._icon-jquery:before        { background-position: -3rem -1rem; }
 ._icon-underscore:before    { background-position: -4rem -1rem; }
@@ -33,8 +36,6 @@
 ._icon-angular:before       { background-position: -4rem -3rem; }
 ._icon-coffeescript:before  { background-position: 0 -4rem; }
 ._icon-ember:before         { background-position: -1rem -4rem; }
-%icon-menu                  { background-position: -2rem -4rem; }
-%icon-home                  { background-position: -3rem -4rem; }
 ._icon-jqueryui:before      { background-position: -4rem -4rem; }
 ._icon-jquerymobile:before  { background-position: 0 -5rem; }
 ._icon-lodash:before        { background-position: -1rem -5rem; }
@@ -50,7 +51,6 @@
 ._icon-knockout:before      { background-position: 0 -7rem; }
 ._icon-moment:before        { background-position: -1rem -7rem; }
 ._icon-c:before             { background-position: -2rem -7rem; }
-%icon-path                  { background-position: -3rem -7rem; }
 ._icon-yii:before           { background-position: -4rem -7rem; }
 ._icon-cpp:before           { background-position: 0 -8rem; }
 ._icon-go:before            { background-position: -1rem -8rem; }

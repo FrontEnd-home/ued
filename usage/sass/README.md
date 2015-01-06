@@ -1,11 +1,23 @@
 编译SASS
 ========
 
-编译SASS需要使用gulp或grunt，我们这里采用gulp
+编译SASS可使用gulp-sass或grunt-sass（都是基于node-sass开发），我们这里采用gulp
 
 操作可参考：[http://segmentfault.com/blog/laopopo/1190000000372547?page=1]()
 
-##安装（全局）
+同样也可采用 gulp-ruby-sass，gulp-ruby-sass基于ruby和sass，编译Sass文件为 CSS文件。特点：比gulp-sass，但是更稳定，功能更丰富。可参考[Gulp-ruby-sass](http://www.zuojj.com/archives/550.html) 或 [npmjs gulp-ruby-sass](https://www.npmjs.com/package/gulp-ruby-sass)
+
+**注意**：gulp-sass不支持maps以及@extend .one .two;的连写
+
+    var gulp = require('gulp');
+    var sass = require('gulp-ruby-sass');
+    gulp.task('default', function () {
+    return gulp.src('src/scss/app.scss')
+        .pipe(sass({sourcemap: true, sourcemapPath: '../scss'}))
+        .pipe(gulp.dest('dist/css'));
+    });
+
+##gulp编译sass的安装（全局）
 
     npm install -g gulp
 

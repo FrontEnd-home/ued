@@ -4,7 +4,10 @@
   "description": "使用gulp",
   "main": "index.js",
   "dependencies": {
-    "gulp": "^1.4.28"
+    "gulp": "^3.8.10",
+    "gulp-csso": "^0.2.9",
+    "gulp-imagemin": "^2.1.0",
+    "gulp.spritesmith": "^2.4.0"
   },
   "devDependencies": {},
   "scripts": {

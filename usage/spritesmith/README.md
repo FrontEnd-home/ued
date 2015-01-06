@@ -5,11 +5,12 @@
 
 如果不使用工具,完全人工合并雪碧图的话无疑是一件浪费时间也很无聊的事情.关于合并雪碧图的工具也是层出不穷,但一直觉得不太顺手好用,直到出现了Spritesmith,一站式解决样式,图片,高清图等所有问题,为流程的自动化画上了浓墨重彩的一笔...
 
-    Github地址: [spritesmith](https://github.com/Ensighten/spritesmith)
-    
-    对应Grunt和Gulp的插件地址分别是
-    [Grunt插件](https://github.com/Ensighten/grunt-spritesmith)
-    [Gulp插件](https://github.com/twolfson/gulp.spritesmith)
+- Github地址: [spritesmith](https://github.com/Ensighten/spritesmith)
+
+对应Grunt和Gulp的插件地址分别是
+
+- [Grunt插件](https://github.com/Ensighten/grunt-spritesmith)
+- [Gulp插件](https://github.com/twolfson/gulp.spritesmith)
 
 可根据流程选择所需的版本,下面以Grunt为例
 

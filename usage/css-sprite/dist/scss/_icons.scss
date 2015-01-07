@@ -1,0 +1,227 @@
+
+$marionette-16: 0px 0px 16px 16px;
+.icon-marionette-16 {
+  @include sprite($marionette-16);
+}
+$angular-16: -16px 0px 16px 16px;
+.icon-angular-16 {
+  @include sprite($angular-16);
+}
+$bower-16: 0px -16px 16px 16px;
+.icon-bower-16 {
+  @include sprite($bower-16);
+}
+$c-16: -16px -16px 16px 16px;
+.icon-c-16 {
+  @include sprite($c-16);
+}
+$chai-16: -32px 0px 16px 16px;
+.icon-chai-16 {
+  @include sprite($chai-16);
+}
+$coffeescript-16: -32px -16px 16px 16px;
+.icon-coffeescript-16 {
+  @include sprite($coffeescript-16);
+}
+$cordova-16: 0px -32px 16px 16px;
+.icon-cordova-16 {
+  @include sprite($cordova-16);
+}
+$cpp-16: -16px -32px 16px 16px;
+.icon-cpp-16 {
+  @include sprite($cpp-16);
+}
+$css-16: -32px -32px 16px 16px;
+.icon-css-16 {
+  @include sprite($css-16);
+}
+$django-16: -48px 0px 16px 16px;
+.icon-django-16 {
+  @include sprite($django-16);
+}
+$dom-16: -48px -16px 16px 16px;
+.icon-dom-16 {
+  @include sprite($dom-16);
+}
+$dom_events-16: -48px -32px 16px 16px;
+.icon-dom_events-16 {
+  @include sprite($dom_events-16);
+}
+$express-16: 0px -48px 16px 16px;
+.icon-express-16 {
+  @include sprite($express-16);
+}
+$d3-16: -16px -48px 16px 16px;
+.icon-d3-16 {
+  @include sprite($d3-16);
+}
+$git-16: -32px -48px 16px 16px;
+.icon-git-16 {
+  @include sprite($git-16);
+}
+$yii-16: -48px -48px 16px 16px;
+.icon-yii-16 {
+  @include sprite($yii-16);
+}
+$grunt-16: -64px 0px 16px 16px;
+.icon-grunt-16 {
+  @include sprite($grunt-16);
+}
+$haskell-16: -64px -16px 16px 16px;
+.icon-haskell-16 {
+  @include sprite($haskell-16);
+}
+$html-16: -64px -32px 16px 16px;
+.icon-html-16 {
+  @include sprite($html-16);
+}
+$http-16: -64px -48px 16px 16px;
+.icon-http-16 {
+  @include sprite($http-16);
+}
+$javascript-16: 0px -64px 16px 16px;
+.icon-javascript-16 {
+  @include sprite($javascript-16);
+}
+$jquerymobile-16: -16px -64px 16px 16px;
+.icon-jquerymobile-16 {
+  @include sprite($jquerymobile-16);
+}
+$jquery-16: -32px -64px 16px 16px;
+.icon-jquery-16 {
+  @include sprite($jquery-16);
+}
+$jqueryui-16: -48px -64px 16px 16px;
+.icon-jqueryui-16 {
+  @include sprite($jqueryui-16);
+}
+$knockout-16: -64px -64px 16px 16px;
+.icon-knockout-16 {
+  @include sprite($knockout-16);
+}
+$laravel-16: -80px 0px 16px 16px;
+.icon-laravel-16 {
+  @include sprite($laravel-16);
+}
+$less-16: -80px -16px 16px 16px;
+.icon-less-16 {
+  @include sprite($less-16);
+}
+$backbone-16: -80px -32px 16px 16px;
+.icon-backbone-16 {
+  @include sprite($backbone-16);
+}
+$ember-16: -80px -48px 16px 16px;
+.icon-ember-16 {
+  @include sprite($ember-16);
+}
+$lodash-16: -80px -64px 16px 16px;
+.icon-lodash-16 {
+  @include sprite($lodash-16);
+}
+$xpath-16: 0px -80px 14px 16px;
+.icon-xpath-16 {
+  @include sprite($xpath-16);
+}
+$modernizr-16: -14px -80px 16px 16px;
+.icon-modernizr-16 {
+  @include sprite($modernizr-16);
+}
+$moment-16: -30px -80px 16px 16px;
+.icon-moment-16 {
+  @include sprite($moment-16);
+}
+$node-16: -46px -80px 15px 16px;
+.icon-node-16 {
+  @include sprite($node-16);
+}
+$mongoose-16: -61px -80px 15px 16px;
+.icon-mongoose-16 {
+  @include sprite($mongoose-16);
+}
+$nokogiri-16: -76px -80px 16px 16px;
+.icon-nokogiri-16 {
+  @include sprite($nokogiri-16);
+}
+$php-16: -96px 0px 16px 16px;
+.icon-php-16 {
+  @include sprite($php-16);
+}
+$maxcdn-16: -96px -16px 16px 16px;
+.icon-maxcdn-16 {
+  @include sprite($maxcdn-16);
+}
+$phpunit-16: -96px -32px 16px 16px;
+.icon-phpunit-16 {
+  @include sprite($phpunit-16);
+}
+$nginx-16: -96px -48px 16px 16px;
+.icon-nginx-16 {
+  @include sprite($nginx-16);
+}
+$postgresql-16: -96px -64px 16px 16px;
+.icon-postgresql-16 {
+  @include sprite($postgresql-16);
+}
+$python-16: -96px -80px 16px 16px;
+.icon-python-16 {
+  @include sprite($python-16);
+}
+$react-16: 0px -96px 16px 16px;
+.icon-react-16 {
+  @include sprite($react-16);
+}
+$rails-16: -16px -96px 16px 16px;
+.icon-rails-16 {
+  @include sprite($rails-16);
+}
+$redis-16: -32px -96px 16px 16px;
+.icon-redis-16 {
+  @include sprite($redis-16);
+}
+$requirejs-16: -48px -96px 16px 16px;
+.icon-requirejs-16 {
+  @include sprite($requirejs-16);
+}
+$sass-16: -64px -96px 16px 16px;
+.icon-sass-16 {
+  @include sprite($sass-16);
+}
+$ruby-16: -80px -96px 16px 16px;
+.icon-ruby-16 {
+  @include sprite($ruby-16);
+}
+$sinon-16: -96px -96px 16px 16px;
+.icon-sinon-16 {
+  @include sprite($sinon-16);
+}
+$rethinkdb-16: -112px 0px 16px 16px;
+.icon-rethinkdb-16 {
+  @include sprite($rethinkdb-16);
+}
+$svg-16: -112px -16px 16px 16px;
+.icon-svg-16 {
+  @include sprite($svg-16);
+}
+$socketio-16: -112px -32px 16px 16px;
+.icon-socketio-16 {
+  @include sprite($socketio-16);
+}
+$underscore-16: -112px -48px 16px 16px;
+.icon-underscore-16 {
+  @include sprite($underscore-16);
+}
+$go-16: -112px -64px 16px 15px;
+.icon-go-16 {
+  @include sprite($go-16);
+}
+$markdown-16: -112px -79px 16px 10px;
+.icon-markdown-16 {
+  @include sprite($markdown-16);
+}
+
+
+.icon {
+  background-image: url('img/icons.png');
+}
+

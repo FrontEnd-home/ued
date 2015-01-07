@@ -11,8 +11,8 @@ var spritesmith = require('gulp.spritesmith');
 var templater = require('spritesheet-templates');
 
 
-var sprite_files = './test/ui/*/16.png',
-    test_files = './test/icon/*.png',
+var sprite_files = '../test/ui/*/16.png',
+    test_files = '../test/icon/*.png',
     output_path = './public/';
 
 // 雪碧图任务 合并icon图标

@@ -11,7 +11,8 @@
     "spritesheet-templates": "^8.2.0"
   },
   "devDependencies": {
-    "gm": "^1.17.0"
+    "gm": "^1.17.0",
+    "phantomjssmith": "^0.5.4"
   },
   "scripts": {
     "test": "node app.js"

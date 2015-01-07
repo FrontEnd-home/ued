@@ -11,20 +11,21 @@ var spritesmith = require('gulp.spritesmith');
 var templater = require('spritesheet-templates');
 
 
-var sprite_files = './test/ui/',
-    test_files = './test/icon',
-    sprite_output_path = './public/';
+var sprite_files = './test/ui/*/16.png',
+    test_files = './test/icon/*.png',
+    output_path = './public/';
 
 // 雪碧图任务 合并icon图标
 gulp.task('sprite', function () {
   // Generate our spritesheet
-  var spriteData = gulp.src(test_files+'/*.png')
+  var spriteData = gulp.src(test_files)
       .pipe(spritesmith({
         imgName: 'icons.png',
         cssName: '_icons.scss',
-        // 默认使用GM图像处理引擎
-        //'engine': 'gm',
-        // 默认使用二叉树最优排列算法
+        // 可选: 指定引擎 (auto, phantomjs, canvas, gm, pngsmith)
+        //'engine': 'phantomjs',
+        // 默认使用二叉树最优排列算法binary-tree
+        // 可选算法：top-down  left-right  diagonal  alt-diagonal  binary-tree
         'algorithm': 'binary-tree',
         // 默认给雪碧图追加时间戳
         //'imagestamp': true,
@@ -54,7 +55,7 @@ gulp.task('sprite', function () {
         }
       }));
   
-  spriteData.pipe(gulp.dest(sprite_output_path+'images'));
+  spriteData.pipe(gulp.dest(output_path+'images'));
 
 
   // Pipe image stream through image optimizer and onto disk
